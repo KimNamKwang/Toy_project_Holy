@@ -1,19 +1,21 @@
 .nav {
+  text-decoration: none;
+  text-decoration-line: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-/* .nav-align {
-  flex-direction: column-reverse;
-} */
-
 .footer-deco {
-  color: blueviolet;
+  color: white;
   text-align: center;
 }
 
 .article-deco {
-  color: blueviolet;
+  color: white;
   text-align: center;
+}
+
+body {
+  background-image: url(../Images/KakaoTalk_20221110_145226262.png);
 }
