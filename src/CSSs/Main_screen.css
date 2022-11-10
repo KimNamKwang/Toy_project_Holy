@@ -7,3 +7,13 @@
 /* .nav-align {
   flex-direction: column-reverse;
 } */
+
+.footer-deco {
+  color: blueviolet;
+  text-align: center;
+}
+
+.article-deco {
+  color: blueviolet;
+  text-align: center;
+}
