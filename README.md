@@ -1,6 +1,6 @@
-## Getting Started
+## 화면정의서
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- [화면정의서](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/src/Images/Screen_definition_Holy.pdf)
 
 ## Folder Structure
 
