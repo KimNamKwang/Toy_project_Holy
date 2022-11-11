@@ -62,10 +62,12 @@ footer {
   text-align: center;
 }
 
-li a.active {
+/* 아래부분 왼쪽 네비게이션 바 동작 부분. */
+.sidebar a.active {
   background-color: rgb(183, 183, 183);
 }
 
+/* 상단메뉴바와 사이드바 동작 부분 */
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
