@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>홀리피트니스</title>
+    <link rel="stylesheet" href="../CSSs/Join.css" />
+  </head>
+  <body>
+    <div class="width">
+      <!-- <div class="title">회원가입</div> -->
+      <div class="center">
+        <span class="block-gray">약관동의</span>
+        <span class="block-black">정보입력</span>
+        <span class="block-gray">가입완료</span>
+      </div>
+      <div class="right">별표시(*)는 필수 입력사항입니다.</div>
+      <table class="width">
+        <tr class="line">
+          <th class="left padding-15px">이름 *</th>
+          <td>
+            <input class="input" type="text" name="user_name" />
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">아이디 *</th>
+          <td>
+            <input class="input" type="text" name="user_id" />
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">비밀번호 *</th>
+          <td>
+            <input class="input" type="password" name="user_password" id="" />
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">비밀번호확인 *</th>
+          <td>
+            <input
+              class="input"
+              type="password"
+              name="user_password_check"
+              id=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">이메일</th>
+          <td>
+            <input class="input" type="text" name="email_id" />
+            @
+            <input class="input" type="text" name="email_platform" />
+            <select class="input" name="platforms" id="">
+              <option value="choice_email">직접입력</option>
+              <option value="@naver.com">naver.com</option>
+              <option value="@gmail.com">gmail.com</option>
+              <option value="@daum.net">daum.net</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">연락처 *</th>
+          <td>
+            <select class="input" name="choice_cellphone" id="">
+              <option value="010">010</option>
+              <option value="011">011</option>
+              <option value="016">016</option>
+              <option value="017">017</option>
+              <option value="018">018</option>
+              <option value="019">019</option>
+            </select>
+            -
+            <input class="input" type="text" name="cellphone_middle" />
+            -
+            <input class="input" type="text" name="cellphone_last" />
+          </td>
+        </tr>
+        <tr>
+          <th class="left padding-15px">주소</th>
+          <td>
+            <input class="input-adress" type="text" name="address" />
+            <div>
+              <input
+                class="input-better-address"
+                type="text"
+                name="better_address"
+              />
+              [나머지주소입력]
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="button-center">
+        <button
+          class="button"
+          type="submit"
+          onclick="location.href='Join.html'"
+        >
+          확인
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
