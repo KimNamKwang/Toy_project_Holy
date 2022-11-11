@@ -64,7 +64,6 @@ li a.active {
 
 body {
   background-image: url(../Images/KakaoTalk_20221110_145226262.png);
-<<<<<<< HEAD
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,7 +71,8 @@ body {
 footer {
   bottom: 0;
 }
-jhgj footer {
+
+footer {
   /* footer를 aside위에 올리기 위해 사용(부유객체) */
   position: absolute;
   height: 50px;
@@ -103,6 +103,4 @@ body {
 .nav > li > a {
   text-decoration: none;
   color: black;
-=======
->>>>>>> b71768f2f93c8c7dce3797eeec6a79a1d0a2dc88
 }
