@@ -1,43 +1,51 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li {
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-
-li a.active {
-  background-color: rgb(183, 183, 183);
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
 html,
 body {
   height: 100%;
 }
-
 #wrap {
   min-height: 100%;
   position: relative;
   padding-bottom: 60px;
 }
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.nav > li > a {
+  text-decoration: none;
+  color: gray;
+}
 
+.first-block {
+  padding-left: 14rem;
+  /* border: 1px solid black; */
+}
+
+.second-block {
+  padding-left: 14rem;
+}
+
+.second-block > tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.third-block {
+  /* padding-left: 14rem; */
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.sidebar {
+  list-style-type: none;
+}
+
+.sidebar > li > a {
+  text-decoration: none;
+  color: gray;
+}
 footer {
   bottom: 0;
 }
@@ -53,22 +61,16 @@ footer {
   background-color: #f2f2f2;
   text-align: center;
 }
-/* * {
-  border: 1px dotted gray;
-} */
-/* 
-.statistics-last{
-    padding-left: 14rem;
-    margin-top: 1rem; 
-} */
-.first-section {
-  border: 1px solid black;
-  border-collapse: collapse;
+
+/* 아래부분 왼쪽 네비게이션 바 동작 부분. */
+.sidebar a.active {
+  background-color: rgb(183, 183, 183);
 }
 
-tr th {
-  border: 1px solid black;
-  border-collapse: collapse;
+/* 상단메뉴바와 사이드바 동작 부분 */
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
 .color-gray {

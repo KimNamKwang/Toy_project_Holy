@@ -63,9 +63,11 @@ li a.active {
 }
 
 body {
+  background-size: 900px 580px;
   background-image: url(../Images/KakaoTalk_20221110_145226262.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  /* background-size: cover; */
 }
 
 footer {
