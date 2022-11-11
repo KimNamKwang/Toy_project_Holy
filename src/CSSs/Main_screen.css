@@ -35,7 +35,7 @@ body {
 footer {
   bottom: 0;
 }
-footer {
+jhgj footer {
   /* footer를 aside위에 올리기 위해 사용(부유객체) */
   position: absolute;
   height: 50px;
