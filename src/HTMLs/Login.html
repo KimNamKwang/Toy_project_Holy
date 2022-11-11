@@ -15,12 +15,27 @@
       <div class="padding-botton-5px">
         방문해 주셔서 감사합니다. 항상 고객 여러분을 위해서 노력하겠습니다.
       </div>
-      <div>불편하신 사항이 있으시면 고객센터로 문의하여 주시기 바랍니다.</div>
-      <div class="login-outline">
-        <label for="">아이디</label>
-        <input type="text" name="user_id" />
-        <label for="">비밀번호</label>
-        <input type="password" name="" id="" />
+      <div class="padding-botton-15px">
+        불편하신 사항이 있으시면 고객센터로 문의하여 주시기 바랍니다.
+      </div>
+      <form action="./Main_screen.html" method="get">
+        <div class="login-outline">
+          <label class="font-weight" for="">아이디</label>
+          <input class="input-width" type="text" name="id" />
+          <label class="font-weight padding-50px" for="">비밀번호</label>
+          <input class="input-width" type="password" name="password" id="" />
+          <button class="login-button" type="submit">로그인</button>
+        </div>
+      </form>
+      <div class="font-size-2">
+        회원이 아니신가요?
+        <button
+          class="button font-size-3"
+          type="button"
+          onclick="location.href='Join_agree.html'"
+        >
+          회원가입
+        </button>
       </div>
     </div>
   </body>
