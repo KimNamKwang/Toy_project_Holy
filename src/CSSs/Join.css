@@ -36,7 +36,7 @@ td {
   text-align: right;
   font-weight: 900;
   padding-bottom: 3px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .title {
@@ -47,10 +47,6 @@ td {
 
 .line {
   border-top: 2px solid rgb(68, 68, 68);
-}
-
-.width {
-  width: 1000px;
 }
 
 .block-gray {
@@ -71,6 +67,10 @@ td {
 
 .center {
   text-align: center;
+}
+
+.width {
+  width: 1000px;
 }
 
 .button {
