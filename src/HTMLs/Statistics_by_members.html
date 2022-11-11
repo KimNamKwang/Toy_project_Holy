@@ -10,33 +10,54 @@
   <body style="background-color: rgb(239, 239, 239)">
     <div id="wrap">
       <header>
-        <div style="padding-left: 14rem">
-          <table class="first-section">
+        <div>
+          <ul class="nav">
+            <li>
+              <a href="./Main_screen.html" target="_self">
+                <img
+                  src="../Images/free-icon-dumbell-1416232.png"
+                  width="50"
+                  alt="덤벨"
+                />
+              </a>
+            </li>
+            <li><a href="#news">설문하기</a></li>
+            <li><a href="./Statistics_by_period.html">통계보기</a></li>
+            <li><a href="./Login.html">LOGIN</a></li>
+            <li><a href="/Join_agree.html">JOIN</a></li>
+          </ul>
+        </div>
+        <div class="first-block">
+          <table>
             <tr>
               <th>설문일</th>
               <th>2015-03-01</th>
-              <th rowspan="2">설문기간</th>
-              <th rowspan="2">2015-03-01 ~ 2015-03-15</th>
+              <th rowspan="3">설문기간</th>
+              <th rowspan="3">2015-03-01 ~ 2015-03-15</th>
+              </th>           
             </tr>
             <tr>
-              <th>설문유형</th>
-              <th>홀리 헬스장 회원 만족도 조사 ▼</th>
+              <tr>
+                <th>설문유형</th>
+                <th>홀리 헬스장 회원 만족도 조사 ▼</th>
+              </tr>
             </tr>
           </table>
         </div>
       </header>
       <div id="content-wrap">
         <aside>
-          <ul>
+          <ul class="sidebar">
             <li><a class="active" href="#home">통계</a></li>
-            <li><a href="#news">회원별 통계</a></li>
+            <li><a href="./Statistics_by_members.html">회원별 통계</a></li>
             <li><a href="./Statistics_by_period.html">월별 통계</a></li>
           </ul>
         </aside>
+
         <section>
           <article>
-            <div style="padding-left: 14rem">
-              <table class="first-section">
+            <div>
+              <table class="second-block">
                 <tr>
                   <th class="color-gray">질문 내용</th>
                   <th class="color-gray">답문</th>
@@ -71,18 +92,14 @@
                   <th>(5) 매우불만족</th>
                 </tr>
               </table>
-            </div>
-          </article>
-          <article>
-            <div style="padding-left: 14rem; margin-top: 1rem">
-              <table class="first-section">
+              <table class="second-block">
                 <tr>
                   <th rowspan="2" class="color-gray">통계</th>
-                  <th class="color-gray">(1) 매우만족</th>
+                  <th class="color-gray">(1) 매우 만족</th>
                   <th class="color-gray">(2) 만족</th>
                   <th class="color-gray">(3) 보통</th>
-                  <th class="color-gray">(4) 불만족</th>
-                  <th class="color-gray">(5) 매우불만족</th>
+                  <th class="color-gray">(4) 불만</th>
+                  <th class="color-gray">(5) 매우 불만</th>
                 </tr>
                 <tr>
                   <th>1</th>
