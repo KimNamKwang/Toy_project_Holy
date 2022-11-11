@@ -11,22 +11,24 @@
     <div id="wrap">
       <header>
         <div>
-          <ul>
+          <ul class="nav">
             <li>
-              <img
-                src="../Images/free-icon-dumbell-1416232.png"
-                width="50"
-                alt="덤벨"
-              />
+              <a href="./Main_screen.html" target="_self">
+                <img
+                  src="../Images/free-icon-dumbell-1416232.png"
+                  width="50"
+                  alt="덤벨"
+                />
+              </a>
             </li>
             <li><a href="#news">설문하기</a></li>
-            <li><a href="#news">통계보기</a></li>
-            <li><a href="#contact">LOGIN</a></li>
-            <li><a href="#about">JOIN</a></li>
+            <li><a href="./Statistics_by_period.html">통계보기</a></li>
+            <li><a href="./Login.html">LOGIN</a></li>
+            <li><a href="./Join.html">JOIN</a></li>
           </ul>
         </div>
-        <div style="padding-left: 14rem">
-          <table class="first-section">
+        <div class="first-block">
+          <table>
             <tr>
               <th>대상기간</th>
               <th>
@@ -47,16 +49,17 @@
       </header>
       <div id="content-wrap">
         <aside>
-          <ul>
+          <ul class="sidebar">
             <li><a class="active" href="#home">통계</a></li>
             <li><a href="./Statistics_by_members.html">회원별 통계</a></li>
             <li><a href="#contact">월별 통계</a></li>
           </ul>
         </aside>
+
         <section>
           <article>
-            <div style="padding-left: 14rem">
-              <table class="first-section">
+            <div>
+              <table class="second-block">
                 <tr>
                   <th class="color-gray"></th>
                   <th class="color-gray">문항1</th>
@@ -128,11 +131,7 @@
                   </th>
                 </tr>
               </table>
-            </div>
-          </article>
-          <article>
-            <div style="padding-left: 14rem; margin-top: 1rem">
-              <table class="first-section">
+              <table class="second-block">
                 <tr>
                   <th rowspan="2" class="color-gray">통계</th>
                   <th class="color-gray">(1) 매우 만족</th>
