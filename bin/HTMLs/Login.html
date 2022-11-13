@@ -8,35 +8,65 @@
     <link rel="stylesheet" href="../CSSs/Login.css" />
   </head>
   <body>
-    <div class="outline">
-      <div class="padding-botton-15px">
-        <span class="font-size">LOGIN</span>&nbsp; |&nbsp; 로그인
-      </div>
-      <div class="padding-botton-5px">
-        방문해 주셔서 감사합니다. 항상 고객 여러분을 위해서 노력하겠습니다.
-      </div>
-      <div class="padding-botton-15px">
-        불편하신 사항이 있으시면 고객센터로 문의하여 주시기 바랍니다.
-      </div>
-      <form action="./Main_screen.html" method="get">
-        <div class="login-outline">
-          <label class="font-weight" for="">아이디</label>
-          <input class="input-width" type="text" name="id" />
-          <label class="font-weight padding-50px" for="">비밀번호</label>
-          <input class="input-width" type="password" name="password" id="" />
-          <button class="login-button" type="submit">로그인</button>
+    <div class="out-margin">
+      <header>
+        <div>
+          <ul class="nav">
+            <li>
+              <a href="./Main_screen.html" target="_self">
+                <img
+                  src="../Images/free-icon-dumbell-1416232.png"
+                  width="50"
+                  alt="덤벨"
+                />
+              </a>
+            </li>
+            <li><a href="#news">설문하기</a></li>
+            <li><a href="./Statistics_by_period.html">통계보기</a></li>
+            <li><a href="./Login.html">LOGIN</a></li>
+            <li><a href="./Join_agree.html">JOIN</a></li>
+          </ul>
         </div>
-      </form>
-      <div class="font-size-2">
-        회원이 아니신가요?
-        <button
-          class="button font-size-3"
-          type="button"
-          onclick="location.href='Join_agree.html'"
-        >
-          회원가입
-        </button>
+      </header>
+      <div class="margin-auto">
+        <div class="outline">
+          <div class="padding-botton-15px">
+            <span class="font-size">LOGIN</span>&nbsp; |&nbsp; 로그인
+          </div>
+          <div class="padding-botton-5px">
+            방문해 주셔서 감사합니다. 항상 고객 여러분을 위해서 노력하겠습니다.
+          </div>
+          <div class="padding-botton-15px">
+            불편하신 사항이 있으시면 고객센터로 문의하여 주시기 바랍니다.
+          </div>
+          <form action="./Main_screen.html" method="get">
+            <div class="login-outline">
+              <label class="font-weight" for="">아이디</label>
+              <input class="input-width" type="text" name="id" />
+              <label class="font-weight padding-50px" for="">비밀번호</label>
+              <input class="input-width" type="password" name="password" id="" />
+              <button class="login-button" type="submit">로그인</button>
+            </div>
+          </form>
+
       </div>
+        <div class="font-size-2">
+          회원이 아니신가요?
+          <button
+            class="button font-size-3"
+            type="button"
+            onclick="location.href='Join_agree.html'"
+          >
+            회원가입
+          </button>
+        </div>
+      </div>
+      <footer>
+        <div>상호 : 홀리 피트니스 | 전화 : 02-123-4567</div>
+        <div>주소 : 허리도 가늘군 만지면 부러지리 123-45</div>
+      </footer>
+    </div>
+
     </div>
   </body>
 </html>
