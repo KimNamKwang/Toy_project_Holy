@@ -142,6 +142,9 @@ footer {
   line-height: 35px;
   border-top: 1px solid #dee5e7;
   background-color: rgb(85, 85, 85);
-  color: white;
   text-align: center;
+}
+
+footer > div {
+  color: white;
 }
