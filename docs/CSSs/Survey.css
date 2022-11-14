@@ -10,7 +10,7 @@
 
 .outline {
   background-color: rgb(228, 228, 228);
-  width: 1000px;
+  width: 2000px;
   display: flex;
   justify-content: center;
   padding: 50px 0px 50px 0px;
@@ -31,4 +31,72 @@
   font-weight: 900;
   font-size: 16px;
   margin-top: 50px;
+}
+
+.out-center {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: rgb(127, 127, 127);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: rgb(85, 85, 85);
+  align-items: center;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  bottom: 0;
+}
+
+footer {
+  /* footer를 aside위에 올리기 위해 사용(부유객체) */
+  position: relative;
+  top: 3rem;
+  height: 70px;
+  width: 100%;
+  /* padding: 0 25px; */
+  line-height: 35px;
+  border-top: 1px solid #dee5e7;
+  background-color: rgb(85, 85, 85);
+  text-align: center;
+}
+
+footer > div {
+  color: white;
 }
