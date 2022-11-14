@@ -1,4 +1,4 @@
-### Publisings Toy Project
+# Publisings Toy Project
 
 ## 팀 멤버
 
