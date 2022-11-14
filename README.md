@@ -14,8 +14,15 @@
 
 ## 팀 멤버
 
-- 김남광 - Statistics_by_members, Statistics_by_period, Survey_submit
-- 안지영 - Login, Survey, Join, Join_agree, Join_completion
+### 김남광
+
+- 회원별 통계, 월별 통계, 설문 제출 완료
+- Statistics_by_members, Statistics_by_period, Survey_submit
+
+### 안지영
+
+- 로그인, 설문하기, 회원가입, 약관동의, 회원가입 완료
+- Login, Survey, Join, Join_agree, Join_completion
 
 ## 구성
 
