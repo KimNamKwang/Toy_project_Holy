@@ -7,8 +7,8 @@
 
 ## 팀 멤버
 
-- 김남광
-- 안지영
+- 김남광 - Statistics_by_members, Statistics_by_period, Survey_submit
+- 안지영 - Login, Survey, Join, Join_agree, Join_completion
 
 ## 구성
 
