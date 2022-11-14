@@ -16,13 +16,25 @@
 
 ### 🙋‍♂김남광
 
-- 회원별 통계, 월별 통계, 설문 제출 완료
-- Statistics_by_members, Statistics_by_period, Survey_submit
+- [설문조사완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey_submit.html)
+
+- [기간별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_period.html)
+
+- [회원별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_members.html)
+
+- [메인 화면](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/index.html)
 
 ### 🙋‍♀안지영
 
-- 로그인, 설문하기, 회원가입, 약관동의, 회원가입 완료
-- Login, Survey, Join, Join_agree, Join_completion
+- [설문조사기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
+
+- [회원가입기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
+
+- [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_agree.html)
+
+- [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_completion.html)
+
+- [로그인](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Login.html)
 
 ## 구성
 
