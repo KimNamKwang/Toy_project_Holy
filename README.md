@@ -16,25 +16,18 @@
 
 ### 🙋‍♂김남광
 
-- [설문조사완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey_submit.html)
-
-- [기간별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_period.html)
-
-- [회원별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_members.html)
-
 - [메인 화면](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/index.html)
+- [기간별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_period.html)
+- [회원별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_members.html)
+- [설문조사완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey_submit.html)
 
 ### 🙋‍♀안지영
 
-- [설문조사기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
-
-- [회원가입기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
-
-- [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_agree.html)
-
-- [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_completion.html)
-
 - [로그인](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Login.html)
+- [설문조사기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
+- [회원가입기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
+- [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_agree.html)
+- [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_completion.html)
 
 ## 구성
 
