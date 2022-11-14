@@ -24,8 +24,8 @@
 ### 🙋‍♀안지영
 
 - [로그인](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Login.html)
-- [설문조사기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
-- [회원가입기능](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
+- [설문조사](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
+- [회원가입](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
 - [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_agree.html)
 - [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_completion.html)
 
