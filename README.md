@@ -5,6 +5,10 @@
 - 피트니스 회원을 대상으로 실시하는 만족도 설문 조사 프로그램
 - 프로젝트 진행 기간 : 2022. 11. 10 ~ 2022. 11. 11
 
+### 사용 언어
+
+- HTML, CSS
+
 ## 팀 멤버
 
 - 김남광 - Statistics_by_members, Statistics_by_period, Survey_submit
