@@ -14,22 +14,22 @@
 
 ## 팀 멤버
 
-### 김남광
+### 🙋‍♂김남광
 
 - 회원별 통계, 월별 통계, 설문 제출 완료
 - Statistics_by_members, Statistics_by_period, Survey_submit
 
-### 안지영
+### 🙋‍♀안지영
 
 - 로그인, 설문하기, 회원가입, 약관동의, 회원가입 완료
 - Login, Survey, Join, Join_agree, Join_completion
 
 ## 구성
 
-- [요구사항정의서](https://docs.google.com/spreadsheets/d/123lKQAMeXs1e0xojYjV34sEz6893--HP/edit#gid=951428288)
-- [화면정의서](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/src/Images/Screen_definition_Holy.pdf)
-- [페이지](https://kimnamkwang.github.io/Toy_project_Holy/)
-- [페이지영상](https://www.youtube.com/watch?v=00qawzvbADU)
+- 📄[요구사항정의서](https://docs.google.com/spreadsheets/d/123lKQAMeXs1e0xojYjV34sEz6893--HP/edit#gid=951428288)
+- 💻[화면정의서](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/src/Images/Screen_definition_Holy.pdf)
+- 🖥[페이지](https://kimnamkwang.github.io/Toy_project_Holy/)
+- 📽[페이지영상](https://www.youtube.com/watch?v=00qawzvbADU)
 
 ## 소감
 
