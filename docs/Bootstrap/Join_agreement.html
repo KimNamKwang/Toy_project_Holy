@@ -11,20 +11,64 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
+    <!-- ----------여기부터 header------------ -->
+    <nav class="navbar bg-dark navbar-dark fixed-top navbar-expand-sm">
+      <div class="container-fluid">
+        <a href="../index.html" class="navbar-brand ms-5">
+          <i class="material-symbols-outlined fs-1"> fitness_center </i>
+        </a>
+        <!--collapse의 경우에는 토글이 아니라 토글러. navbar-toggler -->
+        <a href="#collapseID" class="navbar-toggler" data-bs-toggle="collapse"
+          ><span class="navbar-toggler-icon"></span
+        ></a>
+        <div class="navbar-nav">
+          <div class="collapse navbar-collapse me-5" id="collapseID">
+            <a href="./Survey.html" class="nav-link">설문하기</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#dropdownTarget"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >통계보기</a
+              >
+              <div id="dropdownTarget" class="dropdown-menu">
+                <a
+                  href="./Bootstrap/Statistics_by_member.html"
+                  class="dropdown-item nav-link text-dark"
+                  >개인 설문 조회</a
+                >
+                <a
+                  href="./Bootstrap/Statistics_by_period.html"
+                  class="dropdown-item nav-link text-dark"
+                  >전체 설문 조회</a
+                >
+              </div>
+            </div>
+            <a href="./Login.html" class="nav-link">Login</a>
+            <a href="./Join_agreement.html" class="nav-link">Join</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ----------여기까지 header부분-------------- -->
     <main>
-      <div class="container">
+      <div class="container" style="margin-top: 120px; margin-bottom: 120px">
         <div
           class="d-flex justify-content-center p-5 border-bottom border-2 border-dark"
         >
           <div class="row">
-            <div class="col fw-bold bg-dark bg-opacity-10 p-1 ps-5 pe-5 me-2">
-              약관동의
-            </div>
             <div
               class="col fw-bold bg-dark bg-opacity-50 text-white p-1 ps-5 pe-5 me-2"
             >
+              약관동의
+            </div>
+            <div class="col fw-bold bg-dark bg-opacity-10 p-1 ps-5 pe-5 me-2">
               정보입력
             </div>
             <div class="col fw-bold bg-dark bg-opacity-10 p-1 ps-5 pe-5">
@@ -35,9 +79,12 @@
         <div class="overflow-auto">..dsadsads.</div>
         <div class="overflow-scroll">..sdadsad.</div>
         <div class="text-center">
-          <button class="btn btn-lg btn-outline-dark fw-bold w-25 m-4">
+          <a
+            class="btn btn-lg btn-outline-dark fw-bold w-25 m-4"
+            href="./Join.html"
+          >
             확인
-          </button>
+          </a>
         </div>
       </div>
     </main>
