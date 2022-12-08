@@ -11,7 +11,12 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-  </head>
+    <style>
+      *{
+        border: 1px dotted gray;
+      }
+    </style>
+      </head>
   <body>
     <div class="container-fluid text-center">
       <div class="fs-3">여기는 헤더</div>
@@ -24,59 +29,55 @@
                       >통계</a
                     >
                     <ul class="dropdown-menu">
-                      <a href="" class="dropdown-item">회원별 통계</a>
-                      <a href="" class="dropdown-item">월별 통계</a>
+                      <a href="./Statistics_by_member.html" class="dropdown-item active">회원별 통계</a>
+                      <a href="./Statistics_by_period.html" class="dropdown-item">월별 통계</a>
                     </ul>
                   </div>
             </div>
            
             <div class="col-9">
-                <table class="table table-bordered border-secondary table-sm caption-top"><!--borderless 는 경계선X-->               
-                    <thead>
-                        <tr>
-                            <th scope=>설문일</th>
-                            <th colspan="2" scope=>2015-03-01</th>
-                            <th scope=>대상기간</th>
-                            <th rowspan="2" colspan="5" scope=> 
-                                <form action="./Statistics_by_member.html" method="get">
-                                <span>대상기간</span> 
-                                <span>
-                                    <label for="">시작일</label>
-                                    <input type="date" name="start_date" id="" />
-                                </span> 
-                                <span>
-                                    <label for="">~</label>
-                                    <input type="date" name="last_date" id="" />
-                                </span> 
-                                <button type="submit">
-                                    조회  
-                                </button>
-                            </form></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th rowspan="2" scope=>설문명</th> 
-                            <td>
-                                <div>
-                                    <label for="" class="form-label">설문명</label>
-                                    <select class="form-select" aria-label="">
-                                      <option>Open this select menu</option>
-                                      <option value="M01" selected>홀리몰리 헬스장 설문 만족도 조사</option>
-                                      <option value="M02">OT 만족도 조사</option>
-                                      <option value="M03">PT 만족도 조사</option>
-                                      <!--selected를 어디다 주느냐에 따라 처음 나오는 선택지가 다름.-->
-                                    </select>
-                                  </div>
-
-
-                            </td>
-                        </tr>
-                     
-                        </tbody>
+              <table class="align-middle table table-bordered border-secondary table-sm caption-top"><!--borderless 는 경계선X-->               
+                <tr>
+                  <th rowspan="2">설문일</th>
+                  <td rowspan="2">2015-03-01</th>
+                  <th rowspan="4">
+                  대상기간
+                  </th>
+                  <th rowspan="4">
+                   <form action="./Statistics_by_member.html" method="get">
+                  <span>
+                <label for="">시작일</label>
+                  <input type="date" name="start_date" id="" />
+                </span> 
+                  <span>
+                      <label for="">~</label>
+                  <input type="date" name="last_date" id="" />
+                  </span> 
+                  <button type="submit"> 조회 </button>
+                  </form>
+                  </th>
+                </tr>
+                <tr>
+              
+                </tr>
+                <tr>
+                  <th>설문유형</td>
+                  <td>
+                    <div>
+                      <label for="" class="form-label">설문명</label>
+                                <select class="form-select" aria-label="">
+                                 <option>Open this select menu</option>
+                                   <option value="M01" selected>홀리몰리 헬스장 설문 만족도 조사</option>
+                               <option value="M02">OT 만족도 조사</option>
+                           <option value="M03">PT 만족도 조사</option>
+                         <!--selected를 어디다 주느냐에 따라 처음 나오는 선택지가 다름.-->
+                                             </select>
+                                              </div>
+                  </td>
+                </tr>
                 </table>
+            </div>
         </div>
-    </div>
       
     
       </div>
