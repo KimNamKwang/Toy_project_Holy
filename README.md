@@ -49,9 +49,9 @@
 
 -[메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
 
-#### 주요 코드
+### 공유 코드
 
-navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
+- navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
 
 ```
 <a href="#collapseID" class="navbar-toggler" data-bs-toggle="collapse"
@@ -82,8 +82,10 @@ navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
             </div>
 ```
 
+- div에서 세로 스크롤바를 만든 부분
+
 ```
 <div class="border mt-5 p-3" style="height: 200px; overflow-y: scroll">
-스크롤바
+들어갈 내용
 </div>
 ```
