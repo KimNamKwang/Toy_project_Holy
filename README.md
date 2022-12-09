@@ -21,25 +21,41 @@
 
 ### 🙋‍♂김남광
 
+#### 1차
 - [메인 화면](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/index.html)
 - [기간별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_period.html)
 - [회원별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Statistics_by_members.html)
 - [설문조사완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey_submit.html)
 
+#### 2차
+- [메인 화면](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/index.html)
+- [기간별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Statistics_by_period.html)
+- [회원별 통계 조회](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Statistics_by_member.html)
+- [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Join_completion.html)
+
 ### 🙋‍♀안지영
 
+#### 1차
 - [로그인](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Login.html)
 - [설문조사](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Survey.html)
 - [회원가입](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join.html)
 - [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_agree.html)
 - [회원가입 완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/HTMLs/Join_completion.html)
 
+#### 2차
+- [로그인](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Login.html)
+- [설문조사](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Survey.html)
+- [회원가입](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Join.html)
+- [개인정보 이용 및 수집 동의](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Join_agreement.html)
+- [설문조사완료](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/docs/Bootstrap/Survey_submit.html)
+
 ## 구성
 
 - 📄 [요구사항정의서](https://docs.google.com/spreadsheets/d/123lKQAMeXs1e0xojYjV34sEz6893--HP/edit#gid=951428288)
 - 📑 [화면정의서](https://github.com/KimNamKwang/Toy_project_Holy/blob/master/src/Images/Screen_definition_Holy.pdf)
 - 📜 [페이지](https://kimnamkwang.github.io/Toy_project_Holy/)
-- 📽 [페이지영상](https://www.youtube.com/watch?v=00qawzvbADU)
+- 📽 [페이지영상(1차)](https://www.youtube.com/watch?v=00qawzvbADU)
+- 📽 [페이지영상(2차)](https://www.youtube.com/watch?v=9aOVcdERb_4)
 
 ## 소감
 
