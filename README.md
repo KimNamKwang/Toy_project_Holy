@@ -8,11 +8,13 @@
 
 ## 사용 언어
 
-#### HTML, CSS
+#### 1차 HTML, CSS
+#### 2처 BOOTSTRAP
 
 ## 프로젝트 진행 기간
 
-#### 2022. 11. 10 ~ 2022. 11. 11
+#### 1차 2022. 11. 10 ~ 2022. 11. 11
+### 2차 2022. 12. 08 ~ 2022. 12. 09
 
 ## 팀 멤버
 
@@ -47,7 +49,8 @@
 
 ## Made With Bootstrap
 
--[메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
+-[1차 메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
+-[2차 메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
 
 ### 공유 코드
 
@@ -80,12 +83,4 @@
                 >
               </div>
             </div>
-```
-
-- div에서 세로 스크롤바를 만든 부분
-
-```
-<div class="border mt-5 p-3" style="height: 200px; overflow-y: scroll">
-들어갈 내용
-</div>
 ```
