@@ -86,7 +86,7 @@
             </div>
            
             <div class="col-9">
-              <table class="align-middle table table-bordered border-secondary table-sm caption-top"><!--borderless 는 경계선X-->               
+              <table class="align-middle table border-top border-bottom border-secondary border-opacity-75"><!--borderless 는 경계선X-->               
                 <form action="./Statistics_by_member.html" method="get">
                   <tr>
                     <th class="bg-secondary bg-opacity-25" rowspan="2">설문일</th>
@@ -95,14 +95,10 @@
                     대상기간
                     </th>
                     <th rowspan="4">
-                      <span>
                     <label for="">시작일</label>
                     <input type="date" name="start_date" id="" />
-                   </span> 
-                    <span>
                         <label for="">~</label>
                     <input type="date" name="last_date" id="" />
-                    </span> 
 
                     <button type="submit" class="btn btn-sm btn-secondary"> 조회 </button>
                   
@@ -138,23 +134,23 @@
                   <th colspan="7">설문내용</th>
                   <th colspan="2">답문</th>
                   </tr>
-                  <tr>
+                  <tr class="text-start">
                     <th colspan="7">1. 상담시 친절하게 안내 받으시고 궁금한 사항에 대한 답변이 만족스러우셨습니까?</th>
                     <th colspan="2">(1) 매우만족</th>
                   </tr>
-                  <tr>
+                  <tr class="text-start">
                     <th colspan="7">2. PT(1:1 퍼스널 트레이닝) 진행시 친절하게 안내 받으시고 궁금한 사항에 대한 답변이 만족스러우셨습니까?</th>
                     <th colspan="2">(2) 만족</th>
                   </tr>
-                  <tr>
+                  <tr class="text-start">
                     <th colspan="7">3. OT(1:1 무료 PT) 진행시 친절하게 안내 받으시고 궁금한 사항에 대한 답변이 만족스러우셨습니까?</th>
                     <th colspan="2">(3) 보통</th>
                   </tr>
-                  <tr>
+                  <tr class="text-start">
                     <th colspan="7">4. 헬스장 오픈, 마감 시간을 정확히 준수하였습니까?</th>
                     <th colspan="2">(4) 불만족</th>
                   </tr>
-                  <tr>
+                  <tr class="text-start">
                     <th colspan="7">5. 전반적인 센터 이용이 만족스러우셨습니까?</th>
                     <th colspan="2">(5) 매우불만족</th>
                   </tr>
