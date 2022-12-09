@@ -9,8 +9,8 @@
 
 ## 사용 언어
 
-#### 1차 HTML, CSS
-#### 2처 BOOTSTRAP
+#### 1차 - HTML, CSS
+#### 2차 - BOOTSTRAP
 
 ## 프로젝트 진행 기간
 
