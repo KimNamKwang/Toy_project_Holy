@@ -1,6 +1,7 @@
 # 💻 Publisings Toy Project
 
-- [홈페이지](https://kimnamkwang.github.io/Toy_project_Holy/HTMLs/index1.html)
+- [1차 웹페이지](https://kimnamkwang.github.io/Toy_project_Holy/HTMLs/index1.html)
+- [2차 웹페이지](https://kimnamkwang.github.io/Toy_project_Holy/)
 
 ## 소개
 
@@ -14,7 +15,7 @@
 ## 프로젝트 진행 기간
 
 #### 1차 2022. 11. 10 ~ 2022. 11. 11
-### 2차 2022. 12. 08 ~ 2022. 12. 09
+#### 2차 2022. 12. 08 ~ 2022. 12. 09
 
 ## 팀 멤버
 
@@ -47,14 +48,9 @@
 
 <hr>
 
-## Made With Bootstrap
-
--[1차 메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
--[2차 메인화면](https://kimnamkwang.github.io/Toy_project_Holy/)
-
 ### 공유 코드
 
-- navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
+#### navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
 
 ```
 <a href="#collapseID" class="navbar-toggler" data-bs-toggle="collapse"
