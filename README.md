@@ -81,3 +81,9 @@ navigation bar에서 collapse와 dropdown을 활용하여 만든 부분
               </div>
             </div>
 ```
+
+```
+<div class="border mt-5 p-3" style="height: 200px; overflow-y: scroll">
+스크롤바
+</div>
+```
